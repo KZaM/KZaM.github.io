@@ -1,0 +1,104 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+/*
+* { 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+*/
+body {
+ font-family: Optima, sans-serif;
+  margin:0;
+  padding:0;
+  background-color:#c7dea0;
+  border: solid black;
+}
+a:link { color: #005;}
+a:visited {color: #404;}
+
+
+#header {
+  background-color: #97a77b; color: #161e16;  
+  padding: 40px;
+  border: solid black;
+}
+#header h1, #header h2 {margin: 0;}
+#header h1 { color:#161e16; font-size: 70px;}
+#header h2 { font-weight: normal; font-size:44px; 
+color: #1e0b1e}
+
+#main {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid black;
+}
+#main a {
+  text-decoration: none;
+  color:#7A3E48 ;
+}
+#main a:hover {
+  text-decoration: underline;
+}
+#nav, #footer {
+  margin: 1%;
+}
+#nav ol {
+  padding: 0; 
+  margin: 0;
+  width:573px;
+  margin-left:auto;
+  margin-right:auto;
+  list-style-type:none;
+}
+
+#nav li {
+  display: inline;
+  padding: 0.5em;
+  float:left;
+  border: none;
+  float:left;
+}
+#nav a{
+  color: #13270d;
+  text-decoration:none;
+  text-transform:uppercase;
+  display:block;
+  padding:5px 33px;
+  width:60px;
+  text-align:center;
+  }
+  #nav a:hover {
+    color:#420341;
+}
+
+#nav, #footer {
+  padding: 0.5em 0;
+}
+#main {
+ padding: 1em 5em;
+       
+}
+.lady {
+  width:420px; 
+  height: auto;
+  display:block;
+  margin-top:10px;
+  margin-bottom: 10px;
+  border: solid black;
+  position: absolute;
+    top: 350px;
+    right: 200px;  
+}
+#footer{
+ color: #061202;
+  padding: 0.3em 3em;
+  border: solid black;
+}
