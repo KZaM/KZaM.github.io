@@ -24,6 +24,9 @@ body {
 a:link { color: #005;}
 a:visited {color: #404;}
 
+p{
+  line-height: 1.7em;
+}
 
 #header {
   color: #161e16;
@@ -34,7 +37,7 @@ a:visited {color: #404;}
 #header h2 { font-weight: normal; font-size:44px; 
 color: #1e0b1e}
 
-#main, #header {
+#main, #header, #footer, #nav {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -50,15 +53,8 @@ color: #1e0b1e}
 #main a:hover {
   text-decoration: underline;
 }
-#nav, #footer {
-  margin: 1%;
-}
-#nav ol {
-  padding: 0; 
-  margin: 0;
-  width:573px;
-  margin-left:auto;
-  margin-right:auto;
+#nav {
+  max-width: 600px;
   list-style-type:none;
 }
 
@@ -75,7 +71,6 @@ color: #1e0b1e}
   text-transform:uppercase;
   display:block;
   padding:5px 33px;
-  width:60px;
   text-align:center;
   }
   #nav a:hover {
@@ -92,7 +87,7 @@ color: #1e0b1e}
 
 .scale {
   
-  border-radius:10px;
+  border-radius:8px;
   float: right;
   margin-right: 10px;
   width: 500px;
@@ -103,12 +98,17 @@ img.align {
   margin-right: 10px;
   width: 110px;
   height: 160px;
-  border-radius:10px;
+  border-radius:6px;
+  padding: 4px;
 }
 #footer{
  color: #061202;
   padding: 0.3em 3em;
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
 }
