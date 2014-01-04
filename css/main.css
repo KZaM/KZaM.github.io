@@ -95,10 +95,8 @@ color: #1e0b1e}
   border: none;
   border-radius:6px;
   float: right;
-  margin-right: 10px;
   width: 500px;
   height: 400px;
-  padding-left: 20px;
 }
 img.align {
   float: left;
@@ -114,10 +112,16 @@ img.align {
 }
 
 /* Smartphones  */
-@media(max-width : 380px) {
+@media(max-width : 400px) {
   html, body {
-    font-size: 14px;
+    font-size: 12px;
   }
   #header h1 {  font-size: 37px;}
   #header h2 {  font-size:18px;}
+  #main      {font-size: 12px;}
+  .scale     {
+    max-width: 100%;
+    width: auto;
+    border-radius:10px; display: inline; 
+  }
 }
