@@ -124,7 +124,7 @@ img.align {
   #header h2 {  font-size:18px;}
   #main      {font-size: 12px;}
   .scale     {
-    max-width: 100%;
+   
     width: auto;
     border-radius:10px; display: inline; 
   }
