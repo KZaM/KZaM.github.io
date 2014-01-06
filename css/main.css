@@ -5,10 +5,11 @@
 /*****************************************************************************/
 
 /* Global Reset */
-
+/*
 * { 
   box-sizing: border-box;
 }
+*/
 
 body {
   font-family: 'Cambria', sans-serif;
@@ -118,14 +119,21 @@ img.align {
 /* Smartphones  */
 @media(max-width : 400px) {
   html, body {
-    font-size: 12px;
+    font-size: 15px;
   }
-  #header h1 {  font-size: 37px;}
-  #header h2 {  font-size:18px;}
+  #header h1 {  font-size: 30px;}
+  #header h2 {  font-size:14px;}
   #main      {font-size: 12px;}
-  .scale     {
-    max-width: 90%;
-    width: auto;
-    border-radius:10px; display: inline; 
+  #background5 {
+    position: relative; 
+    display: inline;
+    width:800px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    float: none; 
   }
 }
