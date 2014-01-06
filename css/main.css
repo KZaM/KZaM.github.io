@@ -6,16 +6,14 @@
 
 /* Global Reset */
 /*
-* { 
-  box-sizing: border-box;
-}
+* { box-sizing: border-box}
 */
+
 
 body {
   font-family: 'Cambria', sans-serif;
   margin:0;
   padding:0;
-  
   background-image:url('../images/background.gif');
   background-repeat:repeat-x;
 }
@@ -84,9 +82,9 @@ p{
   padding:5px 33px;
   text-align:center;
   }
-  #nav a:hover {
-    color:#420341;
-    text-decoration: underline;
+#nav a:hover {
+  color:#420341;
+  text-decoration: underline;
 }
 
 #nav, #footer {
@@ -106,8 +104,7 @@ p{
   float: right;
   width: 500px;
   height: 400px;
-  margin-left: auto;
-  margin-right: auto;
+ 
 }
 img.align {
   float: left;
@@ -127,7 +124,7 @@ img.align {
   html, body {
     font-size: 25px;
   }
-  #header h1 {  font-size: 30px;}
+  #header h1 { font-size: 30px;}
   #header h2 {  
     font-size:14px;
     padding-left:25px; 
@@ -138,7 +135,8 @@ img.align {
   #main  {font-size: 15px;}
   .scale { 
     display: inline;
-    width:500px;
+    width:100%;
+    height:100%;
     margin-left: auto;
     margin-right: auto;
     -webkit-border-radius: 10px;
