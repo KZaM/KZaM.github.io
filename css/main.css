@@ -32,8 +32,12 @@ p{
 }
 #header h1, #header h2 {margin: 0;}
 #header h1 { color:#161e16; font-size: 68px;}
-#header h2 { font-weight: normal; font-size:38px; 
-color: #1e0b1e}
+#header h2 { 
+  font-weight: normal; 
+  font-size:36px; 
+  color: #1e0b1e;
+  padding-left: 80px;
+}
 
 #main, #header, #footer, #nav {
   max-width: 1000px;
@@ -97,11 +101,12 @@ color: #1e0b1e}
 }
 
 .scale {
-  border: none;
   border-radius:6px;
   float: right;
   width: 500px;
   height: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 img.align {
   float: left;
@@ -122,10 +127,12 @@ img.align {
     font-size: 15px;
   }
   #header h1 {  font-size: 30px;}
-  #header h2 {  font-size:14px;}
+  #header h2 {  
+    font-size:14px;
+    padding-left:25px; 
+  }
   #main      {font-size: 12px;}
-  #background5 {
-    position: relative; 
+  #background5 { 
     display: inline;
     width:800px;
     padding-left: 20px;
