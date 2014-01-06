@@ -124,14 +124,17 @@ img.align {
 /* Smartphones  */
 @media(max-width : 400px) {
   html, body {
-    font-size: 15px;
+    font-size: 25px;
   }
   #header h1 {  font-size: 30px;}
   #header h2 {  
     font-size:14px;
     padding-left:25px; 
   }
-  #main      {font-size: 12px;}
+  #nav  {
+    font-size: 13px;
+  }
+  #main      {font-size: 15px;}
   #background5 { 
     display: inline;
     width:800px;
