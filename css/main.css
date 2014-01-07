@@ -45,7 +45,7 @@ p{
   margin-left: auto;
   margin-right: auto;
 }
-#main, #footer, #nav,  {
+#main, #footer, #nav  {
   padding:0 40px 0 80px;
 }
 #background-container {
@@ -104,6 +104,7 @@ p{
   -moz-border-radius: 10px;
   max-width: 400px;
   float:right;
+  margin: 0 10px 0 60px;
 }
 img.align {
   float: left;
@@ -125,7 +126,9 @@ img.align {
     margin-left: auto;
     margin-right: auto;
   }
-
+  #main, #footer, #nav {
+    padding:0 20px;
+  }
   #header h1 { font-size: 30px;}
   #header h2 {  
     font-size:19px;
@@ -151,9 +154,6 @@ img.align {
   #nav ol {
     display:none;
   }
-  #main, #footer, #nav {
-    padding:0 20px;
-  }
 }
 
 
@@ -161,5 +161,8 @@ img.align {
   #header * {
     width:100%;
     text-align:center;
+  }
+  #header {
+    padding-top: 0;
   }
 }
