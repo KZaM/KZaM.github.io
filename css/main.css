@@ -149,13 +149,11 @@ img.align {
 @media(max-width: 620px) {
    #header * {
     width:100%;
-    text-align:center;
+    text-align:center
   }
   #header {
     padding-top: 0;
-  }
-  #nav {
-    height:15px;
+    float: none;
   }
   #nav ol {
     display:none;
