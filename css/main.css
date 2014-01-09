@@ -118,16 +118,10 @@ img.align {
   color: #061202;
 }
 
-#gallery {
-  width: 960px;
-  margin: 0 auto;
-  padding-top: 10px;
-  text-align: center;
-}
 #gallery img {
-  margin: 5px;
-  height: 280px;
-  width: 300px;
+  width: 250px;
+  float: left;
+  padding: 21px;
 }
 
 @media(max-width: 820px) {
