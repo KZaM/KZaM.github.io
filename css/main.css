@@ -164,9 +164,21 @@ img.align {
   #nav ol {
     display:none;
   }
-   #gallery {
-     width: 680px;
+    #gallery img {
+    width: 48%;
+    padding: 1%;
+  }
 }
+
+@media(max-width : 999px) {
+  #gallery img {
+    width: 48%;
+    padding: 1%;
+  }
+
+}
+
+  
 @media(max-width : 530px) {
   #header * {
     width:100%;
@@ -181,8 +193,9 @@ img.align {
   #nav ol {
     display:none;
   }
-  #gallery {
-    width: 420px;
+  #gallery img {
+    width: 98%;
+    padding: 1%;
   }
 }
 
@@ -195,4 +208,5 @@ img.align {
   #header {
     padding-top: 0;
   }
+   
 }
