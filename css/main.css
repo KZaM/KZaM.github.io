@@ -170,7 +170,8 @@ img.align {
   #nav ol {
     display:none;
   }
-  .logo {}
+   #gallery {
+     width: 680px;
 }
 @media(max-width : 530px) {
   #header * {
@@ -185,6 +186,9 @@ img.align {
   }
   #nav ol {
     display:none;
+  }
+  #gallery {
+    width: 420px;
   }
 }
 
