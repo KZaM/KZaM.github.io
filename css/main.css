@@ -121,7 +121,7 @@ img.align {
 #gallery img {
   width: 250px;
   float: left;
-  padding: 21px;
+  padding: 20px;
 }
 
 @media(max-width: 820px) {
