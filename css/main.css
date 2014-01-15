@@ -8,7 +8,7 @@
 
 * { box-sizing: border-box } 
 body {
-  font-family: 'Cambria', sans-serif;
+  font-family: Tahoma, Verdana, sans-serif;
   margin:0;
   padding:0;
 }
@@ -29,7 +29,7 @@ p{
 #header h1 { 
   padding:0;
   margin:0;
-  color:#161e16; 
+  color:#662151; 
   font-size: 68px;
 }
 #header h2 { 
@@ -37,7 +37,7 @@ p{
   margin:0;
   font-weight: normal; 
   font-size:36px; 
-  color: #1e0b1e;
+  color: #EB4DBA;
 }
 
 #main, #header, #footer, #nav {
@@ -79,7 +79,7 @@ p{
   border: none;
 }
 #nav a{
-  color: #13270d;
+  color: #3B132E;
   text-decoration:none;
   text-transform:uppercase;
   display:block;
@@ -87,7 +87,7 @@ p{
   text-align:center;
   }
 #nav a:hover {
-  color:#420341;
+  color:#EB4DBA;
   text-decoration: underline;
 }
 
