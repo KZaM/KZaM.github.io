@@ -132,6 +132,15 @@ img.align {
   float: left;
   padding: 21px;
 }
+@media(max-width : 999px) {
+  #gallery img {
+    width: 48%;
+    padding: 1%;
+  }
+  #header h1 {
+    font-size: 70px;
+  }
+}
 
 @media(max-width: 820px) {
 
@@ -162,11 +171,17 @@ img.align {
   }
 }
 @media(max-width: 620px) {
+  #header h1 {
+    font-size: 40px;
+  }
    #header * {
     width:80%;
     text-align:center;
     margin-right: auto;
     margin-left: auto;
+  }
+   .logo {
+    padding: 30px;
   }
   #header {
     padding-top: 0;
@@ -181,13 +196,7 @@ img.align {
   }
 }
 
-@media(max-width : 999px) {
-  #gallery img {
-    width: 48%;
-    padding: 1%;
-  }
 
-}
 
   
 @media(max-width : 530px) {
