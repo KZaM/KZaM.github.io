@@ -185,13 +185,17 @@ img.align {
     font-size: 40px;
   }
    #header * {
-    width:80%;
+    width:100%;
     text-align:center;
     margin-right: auto;
     margin-left: auto;
   }
-   .logo {
-    padding: 30px;
+   #header img {
+    float: none;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   #header {
     padding-top: 0;
@@ -227,7 +231,7 @@ img.align {
     width: 98%;
     padding: 1%;
   }
-}
+
 
 
 @media(max-width : 335px) {
