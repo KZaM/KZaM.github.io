@@ -24,6 +24,11 @@ em {
   color:#5D2909;
   font-family: "CrimsonSemibold", 'Times New Roman', Georgia, serif;
 }
+.info {
+  padding-left: 0;
+ list-style-type: none;
+ line-height: 1.7em;
+}
 
 #header {
   color: #161e16;
@@ -241,6 +246,7 @@ img.align {
     width: 98%;
     padding: 1%;
   }
+}
 
 
 
@@ -252,5 +258,10 @@ img.align {
   #header {
     padding-top: 0;
   }
-   
+  .info li{
+  font-size: 13px;
+  padding-left: 0;
+ list-style-type: none;
+ line-height: 1.7em;
+}
 }
