@@ -116,10 +116,10 @@ em {
   padding-top: 18px;
 }
 .logo1 {
-width: 80%;
-margin-left: auto;
-margin-right: auto;
-display: block;
+  max-width:300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 .friend {
   width: 200px;
@@ -133,29 +133,31 @@ display: block;
   -moz-border-radius: 10px;
   max-width: 400px;
   float:right;
-  margin: 0 20px 0 60px;
+  margin: 30px;
 }
 img.align {
   float: left;
   margin-right: 10px;
   width: 150px;
   border-radius:6px;
-  margin-right: 20px;
+  margin-right: 20px
 }
 #footer{
+  color: #061202;
+  font-size:12px;
+}
+#footer a {
+  text-decoration: none;
   color: #061202;
 }
 
 #gallery img {
-  width: 250px;
   float: left;
-  padding: 21px;
+  width: 48%;
+  padding: 3% 3% 3% 0;
 }
 @media(max-width : 999px) {
-  #gallery img {
-    width: 48%;
-    padding: 1%;
-  }
+
   #header h1 {
     font-size: 70px;
   }
@@ -235,10 +237,7 @@ img.align {
   #nav ol {
     display:none;
   }
-    #gallery img {
-    width: 48%;
-    padding: 1%;
-  }
+  
 }
 
 
